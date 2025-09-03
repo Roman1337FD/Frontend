@@ -1,0 +1,15 @@
+html{
+    font-size: 62.5%;
+    background-image: "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRRXBWxXHdX7CpOWTjTCnzXkY4KLOdYrGR4J5C606AFZewjtJEPLd1E_bGnTI_eYUmlR54UjWOmQp0Pds3HhoqC3Q";
+
+}
+
+h1{
+    color: rgb(251, 33, 33);
+    text-align: center;
+    background-color: rgb(93, 25, 25);
+}
+p{
+    text-align: center;
+    font-size: 2.6rem;
+}
