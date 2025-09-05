@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  border: 2px solid #333;
+  margin: 20px;
+  height: 200px; /* useful for vertical alignment demos */
+  display: flex;
+  /* justify-content: space-evenly; */
+  display: flex;
+  flex-wrap: wrap;
+  display: flex;
+  gap: 20px; /* horizontal + vertical gap */
+  flex-flow: row wrap; /* direction + wrap together */
+   display: flex;
+  align-items: center;
+}
+
+.item {
+  background: lightblue;
+  border: 1px solid #333;
+  padding: 20px;
+  text-align: center;
+  font-size: 18px;
+    width: 120px; /* force wrapping */
+}
+.item:nth-child(2) {
+  order: 3;
+}
+.item:nth-child(3) {
+  order: 1;
+}
+.item:nth-child(2) {
+  flex-grow: 1;
+}
+
+.item:nth-child(2) {
+  align-self: flex-end;
+}
+
+
+
+
+
+
+
+
