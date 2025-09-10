@@ -35,6 +35,11 @@
 .item:nth-child(2) {
   align-self: flex-end;
 }
+.grid-container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px; /* 3 fixed columns */
+}
+
 
 
 
